@@ -1,5 +1,5 @@
-import * as Fns from './hw1-sol.js';
-import { doSuitesTests, Suites }  from './test-utils.js';
+import * as Fns from '../hw1-sol.js';
+import { doSuitesTests, Suites }  from '../test-utils.js';
 
 // Add testAction: 'skip'|'only' for a suite (just before the tests property)
 // to skip tests for a suite, or only run tests for that suite.
