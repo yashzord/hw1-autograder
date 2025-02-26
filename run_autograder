@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+
+# Runs the autograder
+SRC=source
+
+echo "Using following versions"
+echo -n "node "; node --version
+
+mkdir -p submission/tmp
+chown -R student:students submission
+
+runuser -u student $SRC/do-autograder.sh
+
+mv submission/results.json results
