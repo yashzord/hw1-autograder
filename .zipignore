@@ -1,0 +1,7 @@
+*~
+*node_modules*
+*dist*
+*.git*
+.zipignore
+*.zip
+make-zip.sh
