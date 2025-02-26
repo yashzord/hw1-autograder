@@ -9,9 +9,9 @@
     "postbuild": "shx chmod a+x dist/index.js",
     "watch": "tsc --watch",
     "pretest": "npm run build",
-    "test": "mocha --reporter-options maxDiffSize=128000 dist/test",
+    "test": "node dist/hw1-tests.js",
     "predebug-test": "npm run build",
-    "debug-test": "mocha --inspect-brk dist/test"
+    "debug-test": "node --inspect-brk dist/hw1-tests.js"
   },
   "type": "module",
   "keywords": [],
